@@ -26,12 +26,6 @@ $ repo init --depth=1 -u git://github.com/PitchBlackRecoveryProject/manifest_pb.
 repo sync  -f --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
 ```
 
-Then add these projects to .repo/manifest.xml:
-
-```xml
-<project path="device/realme/RMX1851" name="ahmedmoselhi/Device_RMX1851-PBRP" remote="github" revision="android-9.0" />
-```
-
 Finally execute these:
 
 ```
