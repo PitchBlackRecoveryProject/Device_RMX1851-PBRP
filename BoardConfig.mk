@@ -126,4 +126,5 @@ TW_SKIP_COMPATIBILITY_CHECK := true
 PLATFORM_VERSION := 16.1.0
 PLATFORM_SECURITY_PATCH := 2099-12-31
 #PBRP specific flags
+PB_ENABLE_DEFAULT_DM_VERITY := true
 PB_TORCH_PATH := /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pm660l@3:qcom,leds@d300/leds/led:torch_0
