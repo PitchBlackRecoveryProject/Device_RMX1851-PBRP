@@ -1,4 +1,4 @@
-#android_device__RMX1851
+# android_device__RMX1851
 For building PBRP for Realme 3 Pro
 
 TWRP device tree for Realme 3 Pro originally by mauronofrio
