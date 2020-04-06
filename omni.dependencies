@@ -1,0 +1,8 @@
+[
+    {
+        "remote": "github",
+        "repository": "ahmedmoselhi/kernel_realme_sdm710",
+        "target_path": "kernel/realme/sdm710",
+        "revision": "lineage-16.0"
+    }
+]
