@@ -11,9 +11,8 @@ jobs:
       VENDOR: 'realme'
       CODENAME: 'RMX1851'
       BUILD_LUNCH: 'omni_RMX1851-eng'
-      # PB_OFFICIAL: 'true'
-      TEST_BUILD: 'true'
-      # PB_ENGLISH: 'true'
+      MAINTAINER: '@kanged99'
+      PB_OFFICIAL: 'true'
     working_directory: /home/builder/pitchblack
     steps: 
       - run:
