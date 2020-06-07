@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
@@ -7,14 +7,14 @@ jobs:
     environment:
       MANIFEST_BRANCH: 'android-9.0'
       # PBRP_BRANCH: 'android-9.0'
-      VERSION: '2.9.0'
+      VERSION: '2.9.1'
       VENDOR: 'realme'
       CODENAME: 'RMX1851'
-      BUILD_LUNCH: 'omni_RMX1851-userdebug'
-      # TEST_BUILD: 'true'
+      BUILD_LUNCH: 'omni_RMX1851-eng'
+      MAINTAINER: '@kanged99'
+      PB_OFFICIAL: 'true'
     working_directory: /home/builder/pitchblack
     steps: 
-      - checkout
       - run:
           name: AIO Build
           command: |
