@@ -132,4 +132,4 @@ PLATFORM_VERSION := 16.1.0
 PLATFORM_SECURITY_PATCH := 2099-12-31
 #PBRP specific flags
 PB_DISABLE_DEFAULT_DM_VERITY := true
-PB_TORCH_PATH := "/sys/class/leds/led:switch_0"
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
