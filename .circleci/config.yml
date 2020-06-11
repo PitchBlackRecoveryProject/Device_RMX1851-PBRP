@@ -12,7 +12,8 @@ jobs:
       CODENAME: 'RMX1851'
       BUILD_LUNCH: 'omni_RMX1851-eng'
       MAINTAINER: '@kanged99'
-      PB_OFFICIAL: 'true'
+      #PB_OFFICIAL: 'true'
+      TEST_BUILD: 'true'
     working_directory: /home/builder/pitchblack
     steps: 
       - run:
