@@ -14,6 +14,7 @@ jobs:
       MAINTAINER: '@kanged99'
       #PB_OFFICIAL: 'true'
       TEST_BUILD: 'true'
+      CHANGELOG: ' - Test ozip flashing hope your issue will be fixed\n'
     working_directory: /home/builder/pitchblack
     steps: 
       - run:
