@@ -14,8 +14,8 @@ jobs:
       MAINTAINER: '@kanged99'
       PB_OFFICIAL: 'true'
       CHANGELOG: " - Source Upstream\n
-        - fixed flashlight (works after pressing vol+ button)\n
-        - fixed vibration\n"
+        - fixed ozip flashing for rui builds\n
+        - disable flashing dm-verity and force-encryption (note: if you got decryption issue flash enable force encryption zip once then format data once and install pbrp\n"
     working_directory: /home/builder/pitchblack
     steps: 
       - run:
