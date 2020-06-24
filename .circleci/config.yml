@@ -6,7 +6,7 @@ jobs:
       - image: fr3akyphantom/droid-builder:latest
     environment:
       MANIFEST_BRANCH: 'android-9.0'
-      PBRP_BRANCH: 'ozip'
+      PBRP_BRANCH: 'android-9.0'
       VERSION: '2.9.1'
       VENDOR: 'realme'
       CODENAME: 'RMX1851'
@@ -14,7 +14,7 @@ jobs:
       MAINTAINER: '@kanged99'
       #PB_OFFICIAL: 'true'
       TEST_BUILD: 'true'
-      CHANGELOG: ' - Test ozip flashing hope your issue will be fixed\n'
+      CHANGELOG: ' - Test up your Encryption issues\n'
     working_directory: /home/builder/pitchblack
     steps: 
       - run:
