@@ -13,9 +13,8 @@ jobs:
       BUILD_LUNCH: 'omni_RMX1851-eng'
       MAINTAINER: '@kanged99'
       PB_OFFICIAL: 'true'
-      CHANGELOG: " - Source Upstream\n
-        - fixed ozip flashing for rui builds\n
-        - disable flashing dm-verity and force-encryption (note: if you got decryption issue flash enable force encryption zip once then format data once and install pbrp\n"
+      CHANGELOG: " - minor fix to prevent flashing disable force encryption process during roms install\n 
+                   - everything should be ok for now , if there is any issue PM me!/n"
     working_directory: /home/builder/pitchblack
     steps: 
       - run:
