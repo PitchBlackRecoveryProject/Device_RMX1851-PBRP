@@ -7,7 +7,7 @@ jobs:
     environment:
       MANIFEST_BRANCH: 'android-9.0'
       # PBRP_BRANCH: 'android-9.0'
-      VERSION: '2.9.1'
+      VERSION: '3.0.0'
       VENDOR: 'realme'
       CODENAME: 'RMX1851'
       BUILD_LUNCH: 'omni_RMX1851-eng'
