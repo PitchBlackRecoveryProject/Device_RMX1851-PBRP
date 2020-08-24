@@ -12,7 +12,7 @@ jobs:
       CODENAME: 'RMX1851'
       BUILD_LUNCH: 'omni_RMX1851-eng'
       MAINTAINER: '@kanged99'
-      #PB_OFFICIAL: 'true'
+      PB_OFFICIAL: 'true'
       CHANGELOG: " - add nano text editor\n
                    - add bash support\n"
     working_directory: /home/builder/pitchblack
