@@ -13,7 +13,8 @@ jobs:
       BUILD_LUNCH: 'omni_RMX1851-eng'
       MAINTAINER: '@kanged99'
       #PB_OFFICIAL: 'true'
-      CHANGELOG: " - add nano text editor\n"
+      CHANGELOG: " - add nano text editor\n
+                   - add bash support\n"
     working_directory: /home/builder/pitchblack
     steps: 
       - run:
@@ -32,5 +33,5 @@ workflows:
       - build:
           filters:
             branches:
-              only: test3
+              only: android-9.0
           context: org-global
