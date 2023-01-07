@@ -34,7 +34,7 @@ $(call inherit-product, device/realme/RMX1851/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
-PRODUCT_NAME := twrp_$(PRODUCT_RELEASE_NAME)
+PRODUCT_NAME := omni_$(PRODUCT_RELEASE_NAME)
 PRODUCT_BRAND := Realme
 PRODUCT_MANUFACTURER := Realme
 PRODUCT_MODEL := $(PRODUCT_RELEASE_NAME)
